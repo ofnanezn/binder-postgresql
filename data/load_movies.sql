@@ -19,7 +19,7 @@ create table game(
 
 drop table if exists goal;
 create table goal(
- matchid integer,
+ matchid integer primary key,
  teamid text,
  player text,
  gtime integer primary key
