@@ -12,15 +12,15 @@ create table game(
  id integer primary key,
  mdate text,
  stadium text,
- team1 text references eteam (id),
- team2 text references eteam (id)
+ team1 text,
+ team2 text
 );
 \copy game from 'data/game.csv' delimiter ',' csv header;
 
 drop table if exists goal;
 create table goal(
- matchid integer references game (id),
- teamid text references eteam (id),
+ matchid integer,
+ teamid text,
  player text,
  gtime integer primary key
 );
