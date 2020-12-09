@@ -19,10 +19,11 @@ create table game(
 
 drop table if exists goal;
 create table goal(
- matchid integer primary key,
+ matchid integer,
  teamid text,
  player text,
- gtime integer primary key
+ gtime integer,
+ PRIMARY KEY(matchid, gtime)
 );
 \copy goal from 'data/goal.csv' delimiter ',' csv header;
 
