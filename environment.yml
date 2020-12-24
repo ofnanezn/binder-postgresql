@@ -11,3 +11,4 @@ dependencies:
   - pgspecial
   - ipython-sql
   - altair
+  - scikit-learn
