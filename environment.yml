@@ -12,3 +12,4 @@ dependencies:
   - ipython-sql
   - altair
   - scikit-learn
+  - seaborn
