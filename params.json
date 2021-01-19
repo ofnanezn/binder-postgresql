@@ -1,0 +1,19 @@
+{
+  "area": "BI_Engineer",
+  "DB":"./interviews.db",
+  "questions": [
+    {
+      "type": "Programming",
+      "q_level":{"Basic": 3,
+           "Intermediate": 2,
+           "Advanced": 0}
+    },
+    {
+      "type":"Sql",
+      "q_level":{"Basic": 0,
+           "Intermediate": 3,
+           "Advanced": 2}
+     }
+  ],
+  "path_notebook":"./interview.ipynb"
+}
